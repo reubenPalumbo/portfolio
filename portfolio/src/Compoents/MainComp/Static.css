@@ -1,14 +1,24 @@
-/* Header */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap");
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Rock Salt', cursive; */
+
+/*** Header ***/
 .mainHead {
-  height: 50vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 70vh;
   background-image: url("https://spacenews.com/wp-content/uploads/2018/05/24359364107_152b0152ff_k.jpg");
   background-position: bottom;
   /* background-attachment: fixed; */
 }
 .headName {
-  color: black;
+  font-family: "Rock Salt", cursive;
+  color: white;
   text-align: center;
   font-size: 5rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 8px 3px blue;
 }
 .headLinks {
   border-top: white solid 2px;
@@ -19,11 +29,21 @@
   height: 8vh;
   background-color: black;
 }
+.mainPhoto {
+  width: 15%;
+}
 .mainPhoto img {
-  width: 25%;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 100%;
+}
+/*** Body ***/
+/* About */
+.aboutMe {
+  padding: 5%;
 }
 
-/* Footer */
+/*** Footer ***/
 footer {
   margin-top: 50vh;
   display: flex;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Static.css";
-import myPhoto from "./me2.jpg";
+import myPhoto from "./reuben_palumbo.jpg";
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <header className="mainHead">
         <div className="headName">Reuben Palumbo</div>
         <div className="mainPhoto">
-          <img src={myPhoto} alt="reuben palumb" />
+          <img src={myPhoto} alt="reuben palumbo" />
         </div>
       </header>
       <nav className="headLinks">
