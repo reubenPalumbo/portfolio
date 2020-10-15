@@ -1,0 +1,35 @@
+/* Header */
+.mainHead {
+  height: 50vh;
+  background-image: url("https://spacenews.com/wp-content/uploads/2018/05/24359364107_152b0152ff_k.jpg");
+  background-position: bottom;
+  /* background-attachment: fixed; */
+}
+.headName {
+  color: black;
+  text-align: center;
+  font-size: 5rem;
+}
+.headLinks {
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 8vh;
+  background-color: black;
+}
+.mainPhoto img {
+  width: 25%;
+}
+
+/* Footer */
+footer {
+  margin-top: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 8vh;
+  background-color: black;
+}
