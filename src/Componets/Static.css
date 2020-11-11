@@ -43,6 +43,28 @@ font-family: 'Rock Salt', cursive; */
   padding: 5%;
 }
 
+/* Links */
+.links {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  border: solid 1px blanchedalmond;
+}
+.linkBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  border: solid 1px blanchedalmond;
+}
+
+.linkItem {
+  border: 1px blanchedalmond solid;
+  width: 25%;
+}
+
 /*** Footer ***/
 footer {
   margin-top: 50vh;
