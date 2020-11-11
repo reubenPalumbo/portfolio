@@ -45,15 +45,14 @@ font-family: 'Rock Salt', cursive; */
 
 /* Links */
 .links {
-  width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  border: solid 1px blanchedalmond;
+  text-align: center;
 }
 .linkBox {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
@@ -63,7 +62,11 @@ font-family: 'Rock Salt', cursive; */
 .linkItem {
   border: 1px blanchedalmond solid;
   width: 25%;
+  margin: 2%;
+  padding: 2%;
 }
+
+/* Link src */
 
 /*** Footer ***/
 footer {
