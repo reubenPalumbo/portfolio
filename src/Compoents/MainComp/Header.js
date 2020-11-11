@@ -12,9 +12,9 @@ function Header() {
         </div>
       </header>
       <nav className="headLinks">
-        <a href="#">TEMP 1</a>
-        <a href="#">TEMP 2</a>
-        <a href="#">TEMP 3</a>
+        <a href="#home">TEMP 1</a>
+        <a href="#home">TEMP 2</a>
+        <a href="#home">TEMP 3</a>
       </nav>
     </>
   );
