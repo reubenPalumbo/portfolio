@@ -10,6 +10,7 @@
 
 # production
 /build
+.blank.html
 
 # misc
 .DS_Store
